@@ -7,7 +7,7 @@ on:
 
 jobs:
   tests:
-    runs-no: ubuntu-22.04
+    runs-on: ubuntu-22.04
     env:
       SECRET_KEY: ${{ secrets.SECRET_KEY }}
       DEBUG: ${{ secrets.DEBUG }}
